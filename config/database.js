@@ -16,7 +16,7 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres', 
   connection: {
-        host: env('DATABASE_HOST', '159.65.16.204'),
+        host: env('DATABASE_HOST', 'https://api.nicocalvo.com'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'basedatos'),
         user: env('DATABASE_USERNAME', 'sammy'),
