@@ -1,18 +1,18 @@
 module.exports = ({ env }) => ({
     // ...
-    // email: {
-    //     config: {
-    //       provider: 'sendgrid',
-    //       providerOptions: {
-    //         apiKey: env('SENDGRID_API_KEY'),
-    //       },
-    //       settings: {
-    //         defaultFrom: 'hola@nicocalvo.com',
-    //         defaultReplyTo: 'hola@nicocalvo.com',
-    //         testAddress: 'nico@nicocalvo.com',
-    //       },
-    //     },
-    //   },
+    email: {
+        config: {
+          provider: 'sendgrid',
+          providerOptions: {
+            apiKey: env('SENDGRID_API_KEY'),
+          },
+          settings: {
+            defaultFrom: 'hola@nicocalvo.com',
+            defaultReplyTo: 'hola@nicocalvo.com',
+            testAddress: 'nico@nicocalvo.com',
+          },
+        },
+      },
     // ...
     upload: {
         config: {
